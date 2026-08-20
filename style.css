@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fundo da Página Inicial usando imagem temática do Unsplash */
+.bg-home {
+    background: url('https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=1920') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.overlay {
+    background: rgba(15, 23, 42, 0.65);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    color: #ffffff;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+button:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+/* Estilo das Páginas Internas */
+.bg-page {
+    background-color: #f1f5f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 600px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    color: #334155;
+}
+
+ul {
+    margin: 15px 0 25px 20px;
+    line-height: 1.8;
+}
+
+strong {
+    display: block;
+    font-size: 1.2rem;
+    color: #0f172a;
+    margin-top: 15px;
+}
